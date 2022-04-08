@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header > h1{
+  text-align: center;
+
+}
+
+.format{
+  margin: 5% auto 5% auto;
+  width: 60%;
+  height: 40vw;
+  border: 2px solid;
+  border-left-style: dashed;
+  border-bottom-style: dashed;
+
+}
+
+.blue{
+  background-color: rgba(45, 174, 216, 0.235); 
+  border-color: rgba(15, 50, 62, 0.406);
+  font-style: rgba(3, 41, 53, 0.755);
+}
+
+.white{
+  background-color: rgba(169, 169, 169, 0.18);
+  border-color:  3px solid rgba(58, 58, 58, 0.762);
+  font-style: rgba(58, 58, 58, 0.762);
+}
+
+.green{
+  background-color: rgba(143, 188, 143, 0.618);
+  border-color: rgba(34, 74, 34, 0.831);
+  font-style: rgba(34, 74, 34, 0.831);
+}
