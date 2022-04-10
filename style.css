@@ -8,8 +8,8 @@ header > h1{
   display: inline-block;
   left: 50%;
   text-align: center;
-  border-bottom: 10px double black;
-  border-bottom-style: double;
+  text-decoration-line:underline;
+  text-decoration-style: double;
   position: relative;
   left: 35%;
 }
@@ -25,7 +25,6 @@ header > h1{
   border-bottom-style: dashed;
   padding: 50px;
   padding-bottom: 0;
-  list-style: inside;
   overflow: auto;
 
 }
@@ -63,4 +62,25 @@ header > h1{
 
 .format>section>:first-child{
   margin: 20px 0;
+}
+
+.blue li:nth-child(even)
+{
+  text-decoration-line:underline;
+  text-decoration-style: dashed;
+  color: rgba(5, 48, 62, 0.619);
+}
+
+.white li:nth-child(odd)
+{
+  text-decoration-line:underline;
+  text-decoration-style: dashed;
+  color: rgba(58, 58, 58, 0.578);
+}
+
+.green li:nth-child(2n)
+{
+  text-decoration-line:underline;
+  text-decoration-style: wavy;
+  color: rgba(34, 74, 34, 0.563);
 }
