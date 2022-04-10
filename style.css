@@ -12,21 +12,19 @@ header > h1{
   text-decoration-style: double;
   position: relative;
   left: 35%;
+  margin-bottom: 50px;
 }
 
 
 .format{
-  position: relative;
   margin: 5% auto 5% auto;
   width: 60%;
-  height: 55vw;
   border: 2px solid;
   border-left-style: dashed;
   border-bottom-style: dashed;
   padding: 50px;
   padding-bottom: 0;
   overflow: auto;
-
 }
 
 .blue{
@@ -47,22 +45,27 @@ header > h1{
   color: rgba(34, 74, 34, 0.831);
 }
 
-.format>h2{
-  text-decoration:underline;
-  margin: 30px auto 30px 0px;
-
-}
-
 .format>:last-child{
-  position: absolute;
+  position: relative;
   text-decoration: overline;
   text-align: center;
-  bottom: 10px;
+  margin-top: 50px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+  
+}
+
+.start-text::first-letter{
+  font-size: 1.6rem;
+  font-weight: bolder;
+  
 }
 
 .format>section>:first-child{
   margin: 20px 0;
+  text-decoration: underline;
 }
+
 
 .blue li:nth-child(even)
 {
@@ -83,4 +86,22 @@ header > h1{
   text-decoration-line:underline;
   text-decoration-style: wavy;
   color: rgba(34, 74, 34, 0.563);
+}
+
+.img-format{
+  width: 35vh;
+  border: 5px solid rgba(34, 74, 34, 0.964);
+  position: absolute;
+}
+.charlotte{
+  top: 10%;
+  right: 10%;
+}
+.tiramisu{
+  top:135%;
+  right: 10%;
+}
+.cookies{
+  top: 245%;
+  right: 10%;
 }
